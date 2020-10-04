@@ -6,7 +6,7 @@
 
 Sebuah tutorial bahasa Indonesia untuk menginstall hackintosh (MacOS) di perangkat non-Apple. Dalam hal ini adalah our beloved Thinkpad X250.
 
-## Special note: Ini bukan buatan saya, saya hanya menyatukan beberapa patch (repack) dan re-share untuk memudahkan user x250 lain dalam hal instalasi hackintosh. Selain itu, semua resiko ditanggung penumpang. Cheers!
+## Disclaimer: Ini bukan buatan saya, saya hanya menyatukan beberapa patch (repack) dan re-share untuk memudahkan user x250 lain dalam hal instalasi hackintosh. Selain itu, semua resiko ditanggung penumpang. Cheers!
 
 ## Credit:
 - Rehabman
@@ -60,14 +60,15 @@ Versi Bootloader | R5106
 - DWYOR (Do With Your Own Risk), jgn nyalahin saya klo misalkan ada error, resiko ditanggung penumpang
 
 ## Buat installer MacOS
+- Download EFI yang sudah disediakan disini (Cek tab releases)
 - Download BalenaEtcher [disini](https://www.balena.io/etcher/)
-- Download Installer macOS Catalina [disini](https://drive.google.com/file/d/1-IyiYhgCpOV0o9JoVR6C8heogNLX5DKw/view)
+- Download Installer macOS (High Sierra - Catalina) [disini](https://www.olarila.com/topic/6278-new-vanilla-olarila-images/)
 - Ekstrak file installer yg udah didownload pake winrar/winzip. Jadi format raw
 - Siapkan flashdisk 16GB, dan buat installer macOS dari balena etcher. Ikuti tutorial-nya, [disini](https://www.antonwibowo.com/cara-buat-usb-bootable-linux-balena-etcher/). Overall sama, bedanya cuma di file ISO yg kita install
 - Selesai, lanjut
 
 ## Import EFI ke flashdisk
-Sebenernya udah ada efi dari olarila, tetapi kita harus pake EFI yang bener" pas agar stabil di x250. Cara ini hanya ditujukan kepada Windows user (hanya bisa dilakukan di windows). Untuk os lain, bisa search tutorial-nya digoogle.
+Sebenernya udah ada EFI dari olarila, tetapi kita harus pake EFI yang bener" pas agar stabil di x250. Cara ini hanya ditujukan kepada Windows user (hanya bisa dilakukan di windows). Untuk os lain, bisa search tutorial-nya digoogle.
 - Download Minitool Partition Wizard [disini](https://www.partitionwizard.com/free-partition-manager.html)
 - Download explorer++ [disini](https://explorerplusplus.com/)
 - Siapkan EFI yang telah didownload dari sini
@@ -75,25 +76,17 @@ Sebenernya udah ada efi dari olarila, tetapi kita harus pake EFI yang bener" pas
 - Delete EFI yang ada di flashdisk, terus timpa sama EFI yang ada di repo ini
 - Siap untuk nginstall
 
-## Setting BIOS
-Sebelum install, jgn lupa buat setting BIOS. Settingannya bisa lihat direpo ini. 
-Jangan lupa, samain biar gaada error
-
-Note: Kalo ada settingan yang gak sama/gak ada bisa di skip aja.
-
-Credit to [fraisdos125](https://www.tonymacx86.com/members/fraisdos125.250869/)
-
 ## Cara Install
 - Masuk BIOS, setting boot menu jadi flashdisk yang udah kita siapin tadi.
-- Setting BIOS seperti gambar yang ada direpo ini, samain. klo optionnya ada yg ilang/gak sama, skip aja.
+- Setting BIOS seperti gambar yang ada direpo ini, samain. klo optionnya ada yg ilang/gak sama, skip aja. Credit to [fraisdos125](https://www.tonymacx86.com/members/fraisdos125.250869/)
 - Lanjut, klo udh yakin sama settingan BIOS, langsung save and restart. Jgn lupa, pastiin boot priority pertama itu flashdsik yang udah disiapkan buat instal macOS nanti.
 - Install kyk biasa, ini harusnya udah hatam sih. Klo masih ga ngerti, bisa search tutorial installnya di youtube. Overall, sama.
 
 ## Post Install
-- Buka folder app pendukung yang udah didownload dari repo ini.
-- Salin Clover Configurator ke Applications
-- Abis itu, buka app-nya
-- Pilih mount EFI, masukkan password.
+- Buka folder files yang ada di flashdisk olarila tadi
+- Salin Clover Configurator, Hackintool, DPCI Manager ke Applications. Tujuannya untuk memudahkan kalo mau patching".
+- Abis itu, buka app Clover Configurator-nya
+- Pergi ke tools, pilih mount EFI, masukkan password.
 - Kemudian, copy file EFI dari repo ini (atau dari flashdisk), ke folder EFI di HDD/SSD kalian.
 - Kalo udah selesai, berarti usb-nya bisa dicabut, dan skrg udah bisa boot tanpa flashdisk
 
@@ -115,7 +108,7 @@ Credit to [fraisdos125](https://www.tonymacx86.com/members/fraisdos125.250869/)
 
 ## Grup Diskusi / Contact Person
 - [Hackintosh Lover](https://t.me/HackintoshLover)
-- [DM me on telegram](t.me/exxncss) (Sorry for slow response)
+- [DM me on telegram](https://t.me/exxncss) (Sorry for slow response)
 
 
 
