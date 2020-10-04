@@ -14,27 +14,28 @@ Sebuah tutorial bahasa Indonesia untuk menginstall hackintosh (MacOS) di perangk
 - tonymacx86
 - Insanelymac
 - r/hackintosh
+- [Hackintosh Lover](https://t.me/HackintoshLover)
 
 ## Hardware
 
 Spesifikasi | Keterangan
 ----------- | -----------
 Processor | Intel Core i5-5300U
-Integrated Graphics | Intel HD 5500
+Integrated Graphics | Intel HD Graphics 5500
 Memory | SK-Hynix 8GB DDR3L
 Storage 1 | 128GB Toshiba SSD Sata
 Storage 2 | 256GB Midasforce M2.2242 SSD
-Wireless Card | Intel AC-7265 Dual Band
+Wireless Card | Intel AC-7265 Dual Band + Bluetooth
 Bootloader | Clover
 Versi Bootloader | R5106
 
 ## Versi MacOS
 - Catalina 10.15.6 (Tested)
 - Mojave 10.14.6 (Tested)
-- High Sierra (Not Tested)
+- High Sierra (Tested)
 
 ## What's work?
-- QE/CI Intel HD 5500
+- QE/CI Intel HD Graphics 5500
 - Power Management
 - Sleep, Shutdown, Restart
 - Audio (Speaker & Earphone)
@@ -112,6 +113,9 @@ Credit to [fraisdos125](https://www.tonymacx86.com/members/fraisdos125.250869/)
 - Option 1: Pastiin audio in/out-nya udah di set ke line out
 - Option 2: Sleep dulu laptopnya, nanti normal lagi
 
+## Grup Diskusi / Contact Person
+- [Hackintosh Lover](https://t.me/HackintoshLover)
+- [DM me on telegram](t.me/exxncss) (Sorry for slow response)
 
 
 
