@@ -36,6 +36,7 @@ Bootloader | Clover
 Versi Bootloader | R5106
 
 ## Versi MacOS
+- BigSur 11.0/10.16 Beta (Tested, need some cleanup)
 - Catalina 10.15.6 (Tested)
 - Mojave 10.14.6 (Tested)
 - High Sierra (Tested)
