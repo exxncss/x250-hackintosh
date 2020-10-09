@@ -4,6 +4,12 @@
 
 ![Catalina 2](https://user-images.githubusercontent.com/59009223/93708299-36ea2180-fb5f-11ea-86d6-8d3067f8540b.png)
 
+## Update 9 Oktober 2020
+
+Install macOS BigSur beta 9 Success via OpenCore!
+
+![BigSur Beta 9 via OpenCore!](https://user-images.githubusercontent.com/59009223/95609787-80a49880-0a89-11eb-89f7-1cae45f74a5a.png)
+
 Sebuah tutorial bahasa Indonesia untuk menginstall hackintosh (MacOS) di perangkat non-Apple. Dalam hal ini adalah our beloved Thinkpad X250.
 
 ## Disclaimer: Ini bukan buatan saya, saya hanya menyatukan beberapa patch (repack) dan re-share untuk memudahkan user x250 lain dalam hal instalasi hackintosh. Selain itu, semua resiko ditanggung penumpang. Cheers!
