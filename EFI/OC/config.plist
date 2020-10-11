@@ -1995,60 +1995,6 @@
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>itlwm.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/itlwm</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>IntelBluetoothFirmware.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/IntelBluetoothFirmware</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>IntelBluetoothInjector.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/IntelBluetoothInjector</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
 		</array>
 		<key>Block</key>
 		<array/>
@@ -2138,6 +2084,8 @@
 		</array>
 		<key>Quirks</key>
 		<dict>
+			<key>#DisableLinkeditJettison</key>
+			<false/>
 			<key>AppleCpuPmCfgLock</key>
 			<true/>
 			<key>AppleXcpmCfgLock</key>
@@ -2150,8 +2098,6 @@
 			<false/>
 			<key>DisableIoMapper</key>
 			<true/>
-			<key>DisableLinkeditJettison</key>
-			<false/>
 			<key>DisableRtcChecksum</key>
 			<true/>
 			<key>DummyPowerManagement</key>
@@ -2379,7 +2325,7 @@
 				Rg==
 				</data>
 				<key>boot-args</key>
-				<string>brcmfx-country=#a alcid=15</string>
+				<string>alcid=15 -v</string>
 				<key>booter-fileset-basesystem</key>
 				<data>
 				</data>
