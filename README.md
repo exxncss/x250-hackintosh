@@ -16,7 +16,8 @@ Sebuah tutorial bahasa Indonesia untuk menginstall hackintosh (MacOS) di perangk
 
 ## Credit:
 - Rehabman
-- [banhbaoxamlan](https://github.com/banhbaoxamlan) <- for ssdt patch
+- [banhbaoxamlan](https://github.com/banhbaoxamlan) <- for ssdt patches
+- [CLAY-BIOS](https://github.com/CLAY-BIOS) <- for ssdt patches
 - tonymacx86
 - Insanelymac
 - r/hackintosh
@@ -32,14 +33,14 @@ Memory | SK-Hynix 8GB DDR3L
 Storage 1 | 128GB Toshiba SSD Sata
 Storage 2 | 256GB Midasforce M2.2242 SSD
 Wireless Card | Intel AC-7265 Dual Band + Bluetooth
-Bootloader | Clover
-Versi Bootloader | R5106
+Bootloader | Clover & OpenCore
+Versi Bootloader | R5106 & v0.6.1
 
 ## Versi MacOS
-- BigSur 11.0/10.16 Beta (Tested, need some cleanup)
-- Catalina 10.15.6 (Tested)
-- Mojave 10.14.6 (Tested)
-- High Sierra (Tested)
+- BigSur 11.0/10.16 Beta (Tested, OpenCore)
+- Catalina 10.15.6 (Tested, Clover)
+- Mojave 10.14.6 (Tested, Clover)
+- High Sierra (Tested, Clover)
 
 ## What's work?
 - QE/CI Intel HD Graphics 5500
@@ -78,7 +79,7 @@ Versi Bootloader | R5106
 Sebenernya udah ada EFI dari olarila, tetapi kita harus pake EFI yang bener" pas agar stabil di x250. Cara ini hanya ditujukan kepada Windows user (hanya bisa dilakukan di windows). Untuk os lain, bisa search tutorial-nya digoogle.
 - Download Minitool Partition Wizard [disini](https://www.partitionwizard.com/free-partition-manager.html)
 - Download explorer++ [disini](https://explorerplusplus.com/)
-- Siapkan EFI yang telah didownload dari sini
+- Siapkan EFI yang telah didownload dari sini (Cermati dalam memilih EFI-nya, karena terdapat 2 pilihan, Clover dan OpenCore. Cek tab release untuk download-nya).
 - Ikutin tutorial youtube [disini](https://www.youtube.com/watch?v=zx6HKkWequI). Samakan step-nya, jgn sampai terlewat
 - Delete EFI yang ada di flashdisk, terus timpa sama EFI yang ada di repo ini
 - Siap untuk nginstall
@@ -89,33 +90,42 @@ Sebenernya udah ada EFI dari olarila, tetapi kita harus pake EFI yang bener" pas
 - Lanjut, klo udh yakin sama settingan BIOS, langsung save and restart. Jgn lupa, pastiin boot priority pertama itu flashdsik yang udah disiapkan buat instal macOS nanti.
 - Install kyk biasa, ini harusnya udah hatam sih. Klo masih ga ngerti, bisa search tutorial installnya di youtube. Overall, sama.
 
-## Post Install
+## Post Install (Clover dan OpenCore)
 - Buka folder files yang ada di flashdisk olarila tadi
-- Salin Clover Configurator, Hackintool, DPCI Manager ke Applications. Tujuannya untuk memudahkan kalo mau patching".
+- Salin Clover Configurator (Jika pakai Clover, klo OC gaperlu), Hackintool, DPCI Manager ke Applications. Tujuannya untuk memudahkan kalo mau patching".
 - Abis itu, buka app Clover Configurator-nya
 - Pergi ke tools, pilih mount EFI, masukkan password.
 - Kemudian, copy file EFI dari repo ini (atau dari flashdisk), ke folder EFI di HDD/SSD kalian.
 - Kalo udah selesai, berarti usb-nya bisa dicabut, dan skrg udah bisa boot tanpa flashdisk
 
-### Install Kext
+### Install Kext (Clover)
 - Copy kext dari folder EFI yang ada di repo ini (Clover/Kext/Other), ke dekstop. Terus, taro juga app kextbeastnya didesktop.
 - Buka app-nya, next aja terus, pastiin pilih install ke Library/Extensions, jangan /System/Library/Extensions
 - Reboot
 
-### Fix Wifi
+### Install Kext (OpenCore)
+- Tidak perlu, skip step ini
+
+### Fix Wifi (Clover)
 - Pergi kesini https://github.com/OpenIntelWireless
 - Install itlwm.kext, bluetooth injector kext, sama heliport app
+- Ikutin petunjuk selanjutnya
+
+### Fix Wifi (OpenCore)
+- Pergi kesini https://github.com/OpenIntelWireless
+- Bisa pilih itlwm atau Airportitlwm. Saran, lebih baik pake itlwm karena Airportitlwm masih beta dan kurang stabil
+- Install itlwm.kext, bluetooth injector kext, sama heliport app (Jangan lupa add di config.plist)
 - Ikutin petunjuk selanjutnya
 
 ## Troubleshoot
 
 #### Jack audio noise
-- Option 1: Pastiin audio in/out-nya udah di set ke line out
-- Option 2: Sleep dulu laptopnya, nanti normal lagi
+- Option 1: Pastiin audio in/out-nya udah di set ke line out jika pakai earphone/headset. Jika tidak, set lagi ke Internal speaker
+- Option 2: ~~Sleep dulu laptopnya, nanti normal lagi~~ Harusnya dengan option 1 udah bisa
 
 ## Grup Diskusi / Contact Person
 - [Hackintosh Lover](https://t.me/HackintoshLover)
-- [DM me on telegram](https://t.me/exxncss) (Sorry for slow response)
+- [DM me on telegram](https://t.me/exxncss)
 
 
 
