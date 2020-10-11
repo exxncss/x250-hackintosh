@@ -33,8 +33,8 @@ Memory | SK-Hynix 8GB DDR3L
 Storage 1 | 128GB Toshiba SSD Sata
 Storage 2 | 256GB Midasforce M2.2242 SSD
 Wireless Card | Intel AC-7265 Dual Band + Bluetooth
-Bootloader | Clover & OpenCore
-Versi Bootloader | R5106 & v0.6.1
+Bootloader | Clover / OpenCore
+Versi Bootloader | R5106 / v0.6.1
 
 ## Versi MacOS
 - BigSur 11.0/10.16 Beta (Tested, OpenCore)
@@ -63,16 +63,16 @@ Versi Bootloader | R5106 & v0.6.1
 
 ## Persiapan
 - Kesabaran yang berlebih (Install hackintosh gabisa dikejar" waktu, harus sabar, chill. Butuh waktu lebih. So, enjoy it).
-- Sediakan Flashdisk berukuran 16/32GB (untuk Catalina). Usahakan dgn merk terkenal dan bukan abal-abal (KW).
+- Sediakan Flashdisk berukuran 16/32GB (disarankan). Usahakan dgn merk terkenal dan bukan abal-abal (KW).
 - Mengerti setting BIOS
 - DWYOR (Do With Your Own Risk), jgn nyalahin saya klo misalkan ada error, resiko ditanggung penumpang
 
 ## Buat installer MacOS
 - Download EFI yang sudah disediakan disini (Cek tab releases)
 - Download BalenaEtcher [disini](https://www.balena.io/etcher/)
-- Download Installer macOS (High Sierra - Catalina) [disini](https://www.olarila.com/topic/6278-new-vanilla-olarila-images/)
+- Download Installer macOS (High Sierra - BigSur) [disini](https://www.olarila.com/topic/6278-new-vanilla-olarila-images/)
 - Ekstrak file installer yg udah didownload pake winrar/winzip. Jadi format raw
-- Siapkan flashdisk 16GB, dan buat installer macOS dari balena etcher. Ikuti tutorial-nya, [disini](https://www.antonwibowo.com/cara-buat-usb-bootable-linux-balena-etcher/). Overall sama, bedanya cuma di file ISO yg kita install
+- Siapkan flashdisk, dan buat installer macOS dari balena etcher. Ikuti tutorial-nya, [disini](https://www.antonwibowo.com/cara-buat-usb-bootable-linux-balena-etcher/). Overall sama, bedanya cuma di file ISO yg kita install
 - Selesai, lanjut
 
 ## Import EFI ke flashdisk
@@ -126,6 +126,8 @@ Sebenernya udah ada EFI dari olarila, tetapi kita harus pake EFI yang bener" pas
 ## Grup Diskusi / Contact Person
 - [Hackintosh Lover](https://t.me/HackintoshLover)
 - [DM me on telegram](https://t.me/exxncss)
+
+# Thank you, Terima kasih, 감사합니다, ありがとうございました, شكرا
 
 
 
