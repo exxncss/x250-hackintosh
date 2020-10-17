@@ -98,10 +98,12 @@ Sebenernya udah ada EFI dari olarila, tetapi kita harus pake EFI yang bener" pas
 
 ## Post Install (Clover dan OpenCore)
 - Buka folder files yang ada di flashdisk olarila tadi
+- Klik disablehibernate.command dan master-disable.command terlebih dahulu. Lokasi-nya di "Install macOS blabla - FILES - disini". Adalah wajib jika kalian menggunakan Clover.
 - Salin Clover Configurator (Jika pakai Clover, klo OC gaperlu), Hackintool, DPCI Manager ke Applications. Tujuannya untuk memudahkan kalo mau patching".
 - Abis itu, buka app Clover Configurator-nya
-- Pergi ke tools, pilih mount EFI, masukkan password.
-- Kemudian, copy file EFI dari repo ini (atau dari flashdisk), ke folder EFI di HDD/SSD kalian.
+- Pergi ke tools, pilih mount EFI (Flashdisk dan HDD/SSD), masukkan password.
+![Mount EFI](https://user-images.githubusercontent.com/59009223/96336547-da6d1a00-10aa-11eb-9cc2-f31a2de1dc13.png)
+- Kemudian, copy file EFI dari repo ini (dari flashdisk), ke folder EFI di HDD/SSD kalian.
 - Kalo udah selesai, berarti usb-nya bisa dicabut, dan skrg udah bisa boot tanpa flashdisk
 
 ### Install Kext (Clover)
