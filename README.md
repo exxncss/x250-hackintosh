@@ -1,17 +1,12 @@
 # x250-hackintosh
 
-![Catalina 1](https://user-images.githubusercontent.com/59009223/93708288-289c0580-fb5f-11ea-875d-f49e47d31389.png)
-
-![Catalina 2](https://user-images.githubusercontent.com/59009223/93708299-36ea2180-fb5f-11ea-86d6-8d3067f8540b.png)
-
 ![High Sierra](https://user-images.githubusercontent.com/59009223/96335167-bd334e00-10a0-11eb-8634-17cf3452f582.png)
 
+![Mojave](https://user-images.githubusercontent.com/59009223/96336607-3d5eb100-10ab-11eb-9dfe-d2e9768566cf.jpg)
 
-## Update 9 Oktober 2020
+![Catalina](https://user-images.githubusercontent.com/59009223/93708288-289c0580-fb5f-11ea-875d-f49e47d31389.png)
 
-Install macOS BigSur beta 9 Success via OpenCore!
-
-![BigSur Beta 9 via OpenCore!](https://user-images.githubusercontent.com/59009223/95609787-80a49880-0a89-11eb-89f7-1cae45f74a5a.png)
+![BigSur Beta 9](https://user-images.githubusercontent.com/59009223/95609787-80a49880-0a89-11eb-89f7-1cae45f74a5a.png)
 
 Sebuah tutorial bahasa Indonesia untuk menginstall hackintosh (MacOS) di perangkat non-Apple. Dalam hal ini adalah our beloved Thinkpad X250.
 
@@ -45,7 +40,7 @@ Versi Bootloader | R5106 / v0.6.1
 - Mojave 10.14.6 (Tested, Clover)
 - High Sierra (Tested, Clover)
 
-## What's work?
+## Working
 - QE/CI Intel HD Graphics 5500 (High Sierra, Mojave, Catalina, BigSur)
 - Power Management (High Sierra, Mojave, Catalina, BigSur)
 - Sleep, Shutdown, Restart (High Sierra, Mojave, Catalina, BigSur)
@@ -56,13 +51,13 @@ Versi Bootloader | R5106 / v0.6.1
 - Camera (Mojave, Catalina, BigSur)
 - etc
 
-## Not work?
+## Not Working
 - VGA
 - SD Card Reader
 - Bluetooth (High Sierra)
 - Camera (High Sierra)
 
-## Bug?
+## Bugs?
 - ~~Bluetooth kadang ga jalan setelah sleep (untung"an, kadang jalan, kadang nggak).~~ Fix pake itlwm kext
 - ~~Wifi (Bisa diakalin, pake heliport + kext itlwm, tapi harus load manual setiap abis booting. Selain itu, harus input ssid dan password manual buat hidden SSID. Soal koneksi, aman. Sama kyk windows).~~ Fix pake itlwm kext
 - Noise di jack 3.5mm saat colok earphone (fix dgn cara disleep/di set line out-nya ke earphone/headset yg dicolok).
