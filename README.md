@@ -4,6 +4,9 @@
 
 ![Catalina 2](https://user-images.githubusercontent.com/59009223/93708299-36ea2180-fb5f-11ea-86d6-8d3067f8540b.png)
 
+![High Sierra](https://user-images.githubusercontent.com/59009223/96335167-bd334e00-10a0-11eb-8634-17cf3452f582.png)
+
+
 ## Update 9 Oktober 2020
 
 Install macOS BigSur beta 9 Success via OpenCore!
