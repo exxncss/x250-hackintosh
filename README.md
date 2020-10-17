@@ -43,18 +43,21 @@ Versi Bootloader | R5106 / v0.6.1
 - High Sierra (Tested, Clover)
 
 ## What's work?
-- QE/CI Intel HD Graphics 5500
-- Power Management
-- Sleep, Shutdown, Restart
-- Audio (Speaker & Earphone)
-- Bluetooth
-- Trackpad, Trackball, Gestures
-- Indikator baterai
+- QE/CI Intel HD Graphics 5500 (High Sierra, Mojave, Catalina, BigSur)
+- Power Management (High Sierra, Mojave, Catalina, BigSur)
+- Sleep, Shutdown, Restart (High Sierra, Mojave, Catalina, BigSur)
+- Audio Speaker & Earphone (High Sierra, Mojave, Catalina, BigSur)
+- Bluetooth (Mojave, Catalina, BigSur)
+- Trackpad, Trackball, Gestures (High Sierra, Mojave, Catalina, BigSur)
+- Indikator baterai (High Sierra, Mojave, Catalina, BigSur)
+- Camera (Mojave, Catalina, BigSur)
 - etc
 
 ## Not work?
 - VGA
 - SD Card Reader
+- Bluetooth (High Sierra)
+- Camera (High Sierra)
 
 ## Bug?
 - ~~Bluetooth kadang ga jalan setelah sleep (untung"an, kadang jalan, kadang nggak).~~ Fix pake itlwm kext
