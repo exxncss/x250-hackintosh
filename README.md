@@ -12,7 +12,7 @@ Sebuah tutorial bahasa Indonesia untuk menginstall hackintosh (MacOS) di perangk
 
 ## Disclaimer: Ini bukan buatan saya, saya hanya menyatukan beberapa patch (repack) dan re-share untuk memudahkan user x250 lain dalam hal instalasi hackintosh. Selain itu, semua resiko ditanggung penumpang. Cheers!
 
-## Credit:
+## Credits:
 - Rehabman
 - [banhbaoxamlan](https://github.com/banhbaoxamlan) <- for ssdt patches
 - [CLAY-BIOS](https://github.com/CLAY-BIOS) <- for ssdt patches
@@ -40,7 +40,7 @@ Versi Bootloader | R5106 / v0.6.1
 - Mojave 10.14.6 (Tested, Clover)
 - High Sierra (Tested, Clover)
 
-## Working
+## What's Working?
 - QE/CI Intel HD Graphics 5500 (High Sierra, Mojave, Catalina, BigSur)
 - Power Management (High Sierra, Mojave, Catalina, BigSur)
 - Sleep, Shutdown, Restart (High Sierra, Mojave, Catalina, BigSur)
@@ -51,8 +51,8 @@ Versi Bootloader | R5106 / v0.6.1
 - Camera (Mojave, Catalina, BigSur)
 - etc
 
-## Not Working
-- VGA
+## Not Working?
+- VGA port
 - SD Card Reader
 - Bluetooth (High Sierra)
 - Camera (High Sierra)
