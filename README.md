@@ -1,14 +1,19 @@
 # x250-hackintosh
 
-High Sierra
+## High Sierra
 ![High Sierra](https://user-images.githubusercontent.com/59009223/96335167-bd334e00-10a0-11eb-8634-17cf3452f582.png)
 
-Mojave
+## Mojave
 ![Mojave](https://user-images.githubusercontent.com/59009223/96336607-3d5eb100-10ab-11eb-9dfe-d2e9768566cf.jpg)
 
+## Catalina
 ![Catalina](https://user-images.githubusercontent.com/59009223/93708288-289c0580-fb5f-11ea-875d-f49e47d31389.png)
 
+## BigSur Beta 9
 ![BigSur Beta 9](https://user-images.githubusercontent.com/59009223/95609787-80a49880-0a89-11eb-89f7-1cae45f74a5a.png)
+
+## BigSur Beta 11.0.1
+![Screen Shot 2020-11-02 at 15 05 51](https://user-images.githubusercontent.com/59009223/97844732-1f858300-1d1e-11eb-9f99-16a23848809b.png)
 
 Sebuah tutorial bahasa Indonesia untuk menginstall hackintosh (MacOS) di perangkat non-Apple. Dalam hal ini adalah our beloved Thinkpad X250.
 
