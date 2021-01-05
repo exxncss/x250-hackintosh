@@ -4,7 +4,7 @@
 ![High Sierra](https://user-images.githubusercontent.com/59009223/96335167-bd334e00-10a0-11eb-8634-17cf3452f582.png)
 
 ## Mojave
-![Mojave](https://user-images.githubusercontent.com/59009223/96336607-3d5eb100-10ab-11eb-9dfe-d2e9768566cf.jpg)
+![Mojave](https://user-images.githubusercontent.com/59009223/103622044-b5c96580-4f68-11eb-82d3-bc549c76262c.png)
 
 ## Catalina
 ![Catalina](https://user-images.githubusercontent.com/59009223/93708288-289c0580-fb5f-11ea-875d-f49e47d31389.png)
