@@ -1,6 +1,9 @@
 # x250-hackintosh
 
-## UPDATE 23 May 2021
+Sebuah tutorial bahasa Indonesia untuk menginstall hackintosh (MacOS) di perangkat non-Apple. Dalam hal ini adalah our beloved Thinkpad X250.
+
+## Disclaimer: Ini bukan buatan saya, saya hanya menyatukan beberapa patch (repack) dan re-share untuk memudahkan user x250 lain dalam hal instalasi hackintosh. Selain itu, semua resiko ditanggung penumpang. Cheers!
+## UPDATE May 2021
 Saya udah gak update versi bootloader clover lagi, full migrasi ke OpenCore karena dokumentasi yang mudah dimengerti.
 
 ## High Sierra
@@ -15,10 +18,6 @@ Saya udah gak update versi bootloader clover lagi, full migrasi ke OpenCore kare
 ## BigSur
 ![BigSur](https://user-images.githubusercontent.com/59009223/99196582-e9d1a700-27bf-11eb-8cba-91358f3b3911.png)
 ![BigSur 2](https://user-images.githubusercontent.com/59009223/119263992-8495bd00-bc0b-11eb-9d12-b6d29343b3bb.png)
-
-Sebuah tutorial bahasa Indonesia untuk menginstall hackintosh (MacOS) di perangkat non-Apple. Dalam hal ini adalah our beloved Thinkpad X250.
-
-## Disclaimer: Ini bukan buatan saya, saya hanya menyatukan beberapa patch (repack) dan re-share untuk memudahkan user x250 lain dalam hal instalasi hackintosh. Selain itu, semua resiko ditanggung penumpang. Cheers!
 
 ## Credits:
 - Rehabman
