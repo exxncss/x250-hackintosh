@@ -1,5 +1,8 @@
 # x250-hackintosh
 
+# UPDATE 23 May 2021
+## Saya udah gak update versi bootloader clover lagi, full migrasi ke OpenCore karena dokumentasi yang mudah dimengerti.
+
 ## High Sierra
 ![High Sierra](https://user-images.githubusercontent.com/59009223/96335167-bd334e00-10a0-11eb-8634-17cf3452f582.png)
 
@@ -11,6 +14,7 @@
 
 ## BigSur
 ![BigSur](https://user-images.githubusercontent.com/59009223/99196582-e9d1a700-27bf-11eb-8cba-91358f3b3911.png)
+![BigSur 2](https://user-images.githubusercontent.com/59009223/119263992-8495bd00-bc0b-11eb-9d12-b6d29343b3bb.png)
 
 Sebuah tutorial bahasa Indonesia untuk menginstall hackintosh (MacOS) di perangkat non-Apple. Dalam hal ini adalah our beloved Thinkpad X250.
 
@@ -36,11 +40,12 @@ Storage 1 | 128GB Toshiba SSD Sata
 Storage 2 | 256GB Midasforce M2.2242 SSD
 Wireless Card | Intel AC-7265 Dual Band + Bluetooth
 Bootloader | Clover / OpenCore
-Versi Bootloader | R5106 / v0.6.3
+Versi Bootloader | R5106 / v0.6.3 / v0.6.9
 
 Note: utk versi clover, diset ke R5106 karena klo di set ke latest version ga bisa booting utk bbrp user. Jadi, kalian bisa update sendiri yaa beserta kexts"nya
 
 ## Versi MacOS
+- Bigsur 11.2.3	(Tested, OpenCore)
 - BigSur 11.0.1 (Tested, OpenCore)
 - Catalina 10.15.6 (Tested, Clover)
 - Mojave 10.14.6 (Tested, Clover)
