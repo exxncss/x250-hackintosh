@@ -1,7 +1,7 @@
 # x250-hackintosh
 
-# UPDATE 23 May 2021
-## Saya udah gak update versi bootloader clover lagi, full migrasi ke OpenCore karena dokumentasi yang mudah dimengerti.
+## UPDATE 23 May 2021
+Saya udah gak update versi bootloader clover lagi, full migrasi ke OpenCore karena dokumentasi yang mudah dimengerti.
 
 ## High Sierra
 ![High Sierra](https://user-images.githubusercontent.com/59009223/96335167-bd334e00-10a0-11eb-8634-17cf3452f582.png)
