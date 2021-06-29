@@ -19,6 +19,10 @@ Saya udah gak update versi bootloader clover lagi, full migrasi ke OpenCore kare
 ![BigSur](https://user-images.githubusercontent.com/59009223/99196582-e9d1a700-27bf-11eb-8cba-91358f3b3911.png)
 ![BigSur 2](https://user-images.githubusercontent.com/59009223/119263992-8495bd00-bc0b-11eb-9d12-b6d29343b3bb.png)
 
+## Update (Mini DP to VGA/HDMI)
+- It works perfectly
+![minidp](https://user-images.githubusercontent.com/59009223/123823834-bc3d0680-d927-11eb-9476-eb6cdebeec62.jpg)
+
 ## Credits:
 - Rehabman
 - [banhbaoxamlan](https://github.com/banhbaoxamlan) <- for ssdt patches
@@ -59,6 +63,7 @@ Note: utk versi clover, diset ke R5106 karena klo di set ke latest version ga bi
 - Trackpad, Trackball, Gestures (High Sierra, Mojave, Catalina, BigSur)
 - Indikator baterai (High Sierra, Mojave, Catalina, BigSur)
 - Camera (Mojave, Catalina, BigSur)
+- Mini DP (to VGA/HDMI)
 - etc
 
 ## Not Working?
