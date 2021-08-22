@@ -2,7 +2,7 @@
 
 Sebuah tutorial bahasa Indonesia untuk menginstall hackintosh (MacOS) di perangkat non-Apple. Dalam hal ini adalah our beloved Thinkpad X250.
 
-## Disclaimer: Ini bukan buatan saya, saya hanya menyatukan beberapa patch (repack) dan re-share untuk memudahkan user x250 lain dalam hal instalasi hackintosh. Selain itu, semua resiko ditanggung penumpang. Cheers!
+## Disclaimer: Ini bukan buatan saya, saya hanya menyatukan beberapa patch (repack) dan re-share untuk memudahkan user x250 lain dalam hal instalasi hackintosh. Selain itu, semua resiko ditanggung penumpang. Cheers!.
 ## UPDATE May 2021
 Saya udah gak update versi bootloader clover lagi, full migrasi ke OpenCore karena dokumentasi yang mudah dimengerti.
 
@@ -41,7 +41,7 @@ Storage 1 | 128GB Toshiba SSD Sata
 Storage 2 | 256GB Midasforce M2.2242 SSD
 Wireless Card | Intel AC-7265 Dual Band + Bluetooth
 Bootloader | Clover / OpenCore
-Versi Bootloader | R5106 / v0.6.3 / v0.6.9
+Versi Bootloader | R5106 / v0.7.2
 
 Note: utk versi clover, diset ke R5106 karena klo di set ke latest version ga bisa booting utk bbrp user. Jadi, kalian bisa update sendiri yaa beserta kexts"nya
 
