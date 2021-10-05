@@ -2,7 +2,10 @@
 
 Sebuah tutorial bahasa Indonesia untuk menginstall hackintosh (MacOS) di perangkat non-Apple. Dalam hal ini adalah our beloved Thinkpad X250.
 
-## Disclaimer: Ini bukan buatan saya, saya hanya menyatukan beberapa patch (repack) dan re-share untuk memudahkan user x250 lain dalam hal instalasi hackintosh. Selain itu, semua resiko ditanggung penumpang. Cheers!.
+## Disclaimer 1: Patch SSDT yang digunakan bukan punya saya, saya hanya menyatukan beberapa patch (repack) dari beberapa modder untuk memudahkan user x250 lain dalam hal instalasi hackintosh. Credits ada di deskripsi bawah.
+
+## Disclaimer 2: Hanya karena spesifikasi laptop kita sama, bukan berarti langsung "bisa semua", atau bakalan "work semua". Mungkin akan muncul "minor" atau (mungkin) major bugs yang tidak dapat diprediksi sebelumnya. Resiko ditanggung penumpang~
+
 ## UPDATE May 2021
 Saya udah gak update versi bootloader clover lagi, full migrasi ke OpenCore karena dokumentasi yang mudah dimengerti.
 
