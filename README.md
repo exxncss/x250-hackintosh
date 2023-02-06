@@ -1,4 +1,6 @@
-# x250-hackintosh
+# x250-hackintosh 
+
+## Notes: My machine is broken due to a shortage of IC Power. So I can't update this repo.
 
 Sebuah tutorial bahasa Indonesia untuk menginstall hackintosh (MacOS) di perangkat non-Apple. Dalam hal ini adalah our beloved Thinkpad X250.
 
